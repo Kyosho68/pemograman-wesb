@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="EN" lang="EN">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <title>Reservation Hotel Room</title>
+  </head>
+    <body>
+        <h1 style="text-align: left;">Reservation Hotel Room</h1>
+        <form action="" method="post" enctype="multipart/form-data">
+            <table  cellspacing="1" cellpadding="1" border="1" style="border-collapse: collapse; width: 80%;">
+            
+                <ol>
+                    <li><strong><label for="nama">Nama</label></strong></li>
+                    <td><input type="text" id="nama" nama="nama" size="30" /></td>
+                
+                    <li><strong><label for="gender">Gender</label></strong></li>
+                    <td><input type="text" id="gender" nama="Gender" size="30" /></td>
+                
+                    
+                    <li><strong><label for="email">Email Address</label></strong></li>
+                    <td><input type="text" id="email" nama="email" size="30" /></td>
+                
+                    
+                    <li><strong><label for="number">Telp Number</label></strong></li>
+                    <td><input type="text" id="number" nama="number" size="30" /></td>
+                </ol>
+            </table>
+        </form>
+
+        <form action="" method="post" enctype="multipart/form-data">
+            <p style="text-align: left;">Reservation Hotel Room</p>
+                <ol>
+                    <li><strong><label for="rname">Reservation Name </label></strong></li>
+                    <td><input type="text" id="rname" nama="rname" size="30" /></td>
+                
+                    <li><strong><label for="date">Booking Date</label></strong></li>
+                    <td><input type="text" id="date" nama="date" size="30" /></td>
+                
+                
+                    <li><strong><label for="rtype">Room Type</label></strong></li>
+                    <td>
+                        <select id="rtype" name="rtype">
+                            <option>Standard</option>
+                            <option>Deluxe</option>
+                            <option>Suite</option>
+                            <option>Studio</option>
+                        </select>
+                    </td>
+
+                    <li><strong><label for="btype">Bed Type</label></strong></li>
+                    <td>
+                        <select id="btype" name="btype">
+                            <option>Singgle Bed</option>
+                            <option>Twin Bed</option>
+                            <option>King Bed</option>
+                            <option>Queen Bed</option>
+                        </select>
+                    </td>
+
+                    <li><strong>Breakfast</strong></li>
+                    <td>
+                        <label for="wbf"><input type="radio" id="wbf" name="bf" value="with Breakfast" />with Breakfast</label>
+                        <label for="wobf"><input type="radio" id="wobf" name="bf" value="without Breakfast" />without Breakfast</label>
+                    </td>
+                </ol>
+
+
+                <table cellspacing="1" cellpadding="1" border="1" style="border-collapse: collapse; width: 80%;">
+                <ol>
+                    <li><strong><label for="in">Check in Date</label></strong></li>
+                    <td><input type="text" id="in" nama="in" size="30" /></td>
+                
+                    <li><strong><label for="out">Check out Date</label></strong></li>
+                    <td><input type="text" id="out" nama="out" size="30" /></td>
+
+                    <li><strong><label for="method">Payment method</label></strong></li>
+                    <td>
+                        <select id="method" name="method">
+                            <option>Cash</option>
+                            <option>Card</option>
+                        </select>
+                    </td>
+                    
+                    
+                </ol>
+            </table>
+        </form>
+        <tr>
+            <td colspan="2" style="text-align: center;">
+                <input type="submit" id="simpan" name="simpan" value="Simpan" />
+            </td>
+        </tr>
+    </body> 
+
+
+</html>
