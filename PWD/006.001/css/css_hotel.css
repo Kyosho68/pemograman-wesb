@@ -1,6 +1,6 @@
 body {
   font-family: Arial, sans-serif;
-  background: url("pemograman-wesb/PWD/006.001/css/download.jpg") no-repeat center center fixed;
+  background: url("PWD/006.001/css/download.jpg") no-repeat center center fixed;
   background-size: cover;
   margin: 0;
   color: #000000;
@@ -101,5 +101,6 @@ input[type="submit"]:hover {
   box-shadow: 0 0 15px rgba(0, 0, 0, 0.5);
 
 }
+
 
 
